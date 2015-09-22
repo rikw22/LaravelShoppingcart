@@ -61,7 +61,7 @@ class CartRowCollection extends Collection {
 			}
 			else
 			{
-				$found = ($this->{$key} === $value) ? true : false;
+				$found = ($this->{$key} == $value) ? true : false;
 			}
 
 			if( ! $found) return false;
